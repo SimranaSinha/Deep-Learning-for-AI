@@ -1,5 +1,4 @@
 ## IE 7615 – Assignment 2
-⸻
 
 ## Overview
 
@@ -13,7 +12,7 @@ The models evaluated include:
 	•	Bidirectional RNN
 	•	Feedforward Neural Network (MLP)
 
-⸻
+---
 
 ## Dataset
 - Dataset: Reuters Newswire (keras.datasets.reuters)
@@ -21,7 +20,7 @@ The models evaluated include:
 - Sequences padded/truncated to maximum length of 250 words
 - 46 output classes
 
-⸻
+---
 
 ## Preprocessing
 - Integer-encoded sequences
@@ -29,7 +28,7 @@ The models evaluated include:
 - One-hot encoding for multi-class output
 - Train-test split provided by dataset
 
-⸻
+---
 
 ## Models Implemented
 
@@ -106,7 +105,7 @@ Training
 Objective
 To compare a non-recurrent model against sequence-based architectures.
 
-⸻
+---
 
 ## Model Comparison Goals
 
@@ -117,7 +116,7 @@ The assignment evaluates:
 - Effect of model depth
 - Influence of training epochs
 
-⸻
+---
 
 ## Key Observations
 - SimpleRNN performance improved with epochs but showed signs of saturation.
@@ -126,15 +125,15 @@ The assignment evaluates:
 - Bidirectional RNN captured additional contextual information.
 - MLP performed competitively but lacked sequential modeling strength.
 
-⸻
+---
 
-Files Included
+## Files Included
 	•	Assignment_Homework_2.ipynb – Full implementation of all models and experiments
 	•	Assignment - 2 - IE 7615.pdf – Assignment instructions and requirements
 
-⸻
+---
 
-Conclusion
+## Conclusion
 
 This assignment demonstrates how architecture selection directly impacts performance in text classification tasks.
 
