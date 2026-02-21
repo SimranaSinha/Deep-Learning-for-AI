@@ -48,7 +48,7 @@ Experiment
 Goal
 To analyze how increasing epochs affects model performance and overfitting behavior.
 
-
+-- 
 2️⃣ LSTM Model
 
 Architecture
@@ -76,6 +76,7 @@ Purpose
 To evaluate whether additional representation learning improves classification accuracy.
 
 
+--
 3️⃣ Bidirectional SimpleRNN
 
 Architecture
@@ -90,6 +91,7 @@ Objective
 To determine whether using forward and backward context improves classification performance.
 
 
+--
 4️⃣ Feedforward Neural Network (MLP)
 
 Architecture
@@ -128,9 +130,15 @@ The assignment evaluates:
 ---
 
 ## Files Included
-	•	Assignment_Homework_2.ipynb – Full implementation of all models and experiments
-	•	Assignment - 2 - IE 7615.pdf – Assignment instructions and requirements
 
+```
+📦 Assignment 2/
+│
+├── 📄 Assignment_Homework_2.ipynb – Full implementation of all models and experiments 
+│
+└── 📘 README.md - Project documentation
+
+```
 ---
 
 ## Conclusion
@@ -140,10 +148,3 @@ This assignment demonstrates how architecture selection directly impacts perform
 Recurrent models, particularly LSTM and Bidirectional variants, provide stronger sequential understanding compared to basic RNNs and feedforward networks.
 
 Model design, training duration, and architectural depth all play a critical role in classification accuracy.
-
-⸻
-
-If you want, I can also give you:
-	•	A shorter GitHub-friendly version
-	•	A more academic submission-style version
-	•	A version with reported accuracy numbers added from your notebook
