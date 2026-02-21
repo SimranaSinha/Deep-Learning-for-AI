@@ -1,4 +1,4 @@
-## IE 7615 – Assignment 2
+# IE 7615 – Assignment 2
 
 ## Overview
 
