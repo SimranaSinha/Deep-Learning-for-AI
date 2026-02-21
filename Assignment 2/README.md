@@ -48,7 +48,8 @@ Experiment
 Goal
 To analyze how increasing epochs affects model performance and overfitting behavior.
 
--- 
+
+
 2️⃣ LSTM Model
 
 Architecture
@@ -76,7 +77,8 @@ Purpose
 To evaluate whether additional representation learning improves classification accuracy.
 
 
---
+
+
 3️⃣ Bidirectional SimpleRNN
 
 Architecture
@@ -91,7 +93,8 @@ Objective
 To determine whether using forward and backward context improves classification performance.
 
 
---
+
+
 4️⃣ Feedforward Neural Network (MLP)
 
 Architecture
