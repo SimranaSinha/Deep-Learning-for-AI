@@ -48,38 +48,37 @@ Identify the best model based on:
 
 ## Part 2 – Convolutional Neural Networks
 
-A. Effect of Convolutional Layers
+**A. Effect of Convolutional Layers**
 
 Tested:
-	•	1 Conv layer (128 filters)
-	•	2 Conv layers (64 → 128 filters)
-	•	3 Conv layers (32 → 64 → 128 filters)
+- 1 Conv layer (128 filters)
+- 2 Conv layers (64 → 128 filters)
+- 3 Conv layers (32 → 64 → 128 filters)
 
 All used:
-	•	3×3 filters
-	•	One Dense layer before output
+- 3×3 filters
+- One Dense layer before output
 
 
-B. Effect of Dropout
+**B. Effect of Dropout**
 
 Added dropout after:
-	•	Each convolutional layer
-	•	Dense layer
+- Each convolutional layer
+- Dense layer
 
 Tested dropout rates:
-	•	0.0
-	•	0.1
-	•	0.3
-	•	0.5
+- 0.0
+- 0.1
+- 0.3
+- 0.5
 
 
-
-C. Effect of Optimizers
+**C. Effect of Optimizers**
 
 Compared:
-	•	Adam
-	•	RMSprop
-	•	SGD
+- Adam
+- RMSprop
+- SGD
 
 ---
 
