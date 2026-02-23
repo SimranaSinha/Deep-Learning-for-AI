@@ -1,4 +1,4 @@
-# Deep-Learning-for-AI (IE 7615 – Deep Learning Assignments)
+# Deep Learning for AI (IE 7615 - Deep Learning Assignments)
 
 ## Overview
 
