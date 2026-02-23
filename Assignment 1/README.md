@@ -6,7 +6,7 @@ This assignment focuses on building and comparing Multi-Layer Perceptron (MLP) a
 
 The goal is to analyze how different architectures, dropout rates, and optimizers affect classification performance.
 
-⸻
+---
 
 ## Dataset
 - Dataset: Fashion MNIST (keras.datasets.fashion_mnist)
@@ -15,7 +15,7 @@ The goal is to analyze how different architectures, dropout rates, and optimizer
 - Image size: 28 × 28 grayscale
 - 10 output classes
 
-⸻
+---
 
 ## Preprocessing
 - Normalized pixel values to range [0,1]
@@ -23,9 +23,9 @@ The goal is to analyze how different architectures, dropout rates, and optimizer
 - Reshaped images to 28×28×1 for CNN
 - One-hot encoding for output labels
 
-⸻
+---
 
-Part 1 – Multi-Layer Perceptron (Dense Networks)
+## Part 1 – Multi-Layer Perceptron (Dense Networks)
 
 Objective
 
@@ -44,9 +44,9 @@ Identify the best model based on:
 	•	Robustness
 	•	Number of parameters
 
-⸻
+---
 
-Part 2 – Convolutional Neural Networks
+## Part 2 – Convolutional Neural Networks
 
 A. Effect of Convolutional Layers
 
@@ -59,7 +59,7 @@ All used:
 	•	3×3 filters
 	•	One Dense layer before output
 
-⸻
+---
 
 B. Effect of Dropout
 
@@ -72,8 +72,7 @@ Tested dropout rates:
 	•	0.1
 	•	0.3
 	•	0.5
-
-⸻
+---
 
 C. Effect of Optimizers
 
@@ -82,9 +81,9 @@ Compared:
 	•	RMSprop
 	•	SGD
 
-⸻
+---
 
-Final Comparison
+## Final Comparison
 
 Compared:
 	•	Best MLP model
@@ -95,24 +94,24 @@ Evaluation based on:
 	•	Generalization performance
 	•	Model complexity
 
-⸻
+---
 
-Files Included
+## Files Included
 
-Assignment 1/
+```
+📦 Assignment 1/
 │
-├── Homework_Assignment_1(Deep_Learning).ipynb
-├── Assignment - 1 - IE 7615.pdf
+├── 📄 Homework_Assignment_1(Deep_Learning).ipynb
+│
 └── README.md
+```
+---
 
+## Conclusion
 
-⸻
-
-Conclusion
-
-CNN models outperformed MLP models due to better spatial feature extraction.
-Increasing model depth improved performance up to a point.
-Dropout helped reduce overfitting when properly tuned.
-Optimizer choice influenced convergence speed and stability.
+- CNN models outperformed MLP models due to better spatial feature extraction.
+- Increasing model depth improved performance up to a point.
+- Dropout helped reduce overfitting when properly tuned.
+- Optimizer choice influenced convergence speed and stability.
 
 This assignment demonstrates how architecture design directly impacts image classification performance.
