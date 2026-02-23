@@ -59,7 +59,6 @@ All used:
 	•	3×3 filters
 	•	One Dense layer before output
 
----
 
 B. Effect of Dropout
 
@@ -72,7 +71,8 @@ Tested dropout rates:
 	•	0.1
 	•	0.3
 	•	0.5
----
+
+
 
 C. Effect of Optimizers
 
