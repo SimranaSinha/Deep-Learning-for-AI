@@ -19,6 +19,16 @@ This assignment focuses on building and comparing Multi-Layer Perceptron (MLP) a
 - Dropout rates: 0.0, 0.1, 0.3, 0.5
 - Optimizer comparison: Adam, RMSprop, SGD
 
+### Files Included
+
+```
+📦 Assignment 1/
+│
+├── 📄 Homework_Assignment_1(Deep_Learning).ipynb
+│
+└── README.md
+```
+
 ### Conclusion:
 - CNN models outperformed MLP models.
 - Increasing model depth improved performance up to a point.
@@ -37,6 +47,16 @@ This assignment implements and compares sequence modeling architectures on the R
 - LSTM + Additional Dense Layer
 - Bidirectional SimpleRNN
 - Feedforward Neural Network (MLP)
+
+### Files Included
+
+```
+📦 Assignment 2/
+│
+├── 📄 Assignment_Homework_2.ipynb – Full implementation of all models and experiments 
+│
+└── 📘 README.md - Project documentation
+```
 
 ### Observations:
 - SimpleRNN improved with epochs but showed saturation.
