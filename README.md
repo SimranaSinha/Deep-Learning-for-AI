@@ -19,7 +19,7 @@ This assignment focuses on building and comparing Multi-Layer Perceptron (MLP) a
 - Dropout rates: 0.0, 0.1, 0.3, 0.5
 - Optimizer comparison: Adam, RMSprop, SGD
 
-### Files Included
+### Files Included:
 
 ```
 📦 Assignment 1/
@@ -48,7 +48,7 @@ This assignment implements and compares sequence modeling architectures on the R
 - Bidirectional SimpleRNN
 - Feedforward Neural Network (MLP)
 
-### Files Included
+### Files Included:
 
 ```
 📦 Assignment 2/
