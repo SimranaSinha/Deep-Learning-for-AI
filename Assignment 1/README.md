@@ -27,22 +27,22 @@ The goal is to analyze how different architectures, dropout rates, and optimizer
 
 ## Part 1 – Multi-Layer Perceptron (Dense Networks)
 
-Objective
+### Objective
 
-Compare:
-	•	One hidden layer vs Two hidden layers
-	•	32, 64, 128, 256 neurons per layer
+**Compare:**
+- One hidden layer vs Two hidden layers
+- 32, 64, 128, 256 neurons per layer
 
-Architecture
-	•	Dense hidden layers (ReLU activation)
-	•	Output layer (Softmax)
+**Architecture**
+- Dense hidden layers (ReLU activation)
+- Output layer (Softmax)
 
-Goal
+### Goal
 
-Identify the best model based on:
-	•	Accuracy
-	•	Robustness
-	•	Number of parameters
+**Identify the best model based on:**
+- Accuracy
+- Robustness
+- Number of parameters
 
 ---
 
@@ -84,14 +84,14 @@ Compared:
 
 ## Final Comparison
 
-Compared:
-	•	Best MLP model
-	•	Best CNN model
+**Compared:**
+- Best MLP model
+- Best CNN model
 
-Evaluation based on:
-	•	Test accuracy
-	•	Generalization performance
-	•	Model complexity
+**Evaluation based on:**
+- Test accuracy
+- Generalization performance
+- Model complexity
 
 ---
 
