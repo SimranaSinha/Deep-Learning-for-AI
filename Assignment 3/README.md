@@ -151,8 +151,8 @@ The assignment analyzes:
 
 This assignment demonstrates how generative neural networks learn compressed representations of image data.
 
-While **standard autoencoders focus on reconstruction**, **Variational Autoencoders provide a structured latent space that supports generative tasks and interpolation**.
+While standard autoencoders focus on reconstruction, Variational Autoencoders provide a structured latent space that supports generative tasks and interpolation.
 
-The experiments show that **architecture design, filter size, and latent space constraints play an important role in generative modeling performance.**
+The experiments show that architecture design, filter size, and latent space constraints play an important role in generative modeling performance.
 
 
