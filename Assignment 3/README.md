@@ -7,11 +7,10 @@ This assignment focuses on generative representation learning using **Autoencode
 The goal is to analyze how different neural architectures affect **image reconstruction quality and latent space representation**. Experiments are conducted on the MNIST handwritten digit dataset.
 
 The assignment explores:
-
-• Standard Convolutional Autoencoders
-• Variational Autoencoders (VAE)
-• Effect of different convolution filter sizes
-• Latent space interpolation for image morphing
+- Standard Convolutional Autoencoders
+- Variational Autoencoders (VAE)
+- Effect of different convolution filter sizes
+- Latent space interpolation for image morphing
 
 The experiments also investigate how **model capacity influences reconstruction loss and latent space smoothness**. 
 
@@ -50,16 +49,16 @@ Normalization ensures stable training and faster convergence.
 Architecture
 
 Encoder
-• Conv Layer 1
-• Conv Layer 2
-• Conv Layer 3
-• Latent representation
+- Conv Layer 1
+- Conv Layer 2
+- Conv Layer 3
+- Latent representation
 
 Decoder
-• Transposed Conv Layer 1
-• Transposed Conv Layer 2
-• Transposed Conv Layer 3
-• Reconstructed image output
+- Transposed Conv Layer 1
+- Transposed Conv Layer 2
+- Transposed Conv Layer 3
+- Reconstructed image output
 
 Experiments were performed with three different filter configurations:
 
@@ -72,9 +71,9 @@ Experiments were performed with three different filter configurations:
 Objective
 To observe how increasing model capacity affects:
 
-• Reconstruction loss
-• Quality of reconstructed images
-• Structure of latent space
+- Reconstruction loss
+- Quality of reconstructed images
+- Structure of latent space
 
 ---
 
@@ -84,17 +83,17 @@ The same architecture was extended to implement a **Variational Autoencoder**.
 
 Additional Components
 
-• Latent mean vector
-• Latent variance vector
-• Reparameterization trick
-• KL divergence regularization
+- Latent mean vector
+- Latent variance vector
+- Reparameterization trick
+- KL divergence regularization
 
 Purpose
 To compare the VAE with the standard autoencoder in terms of:
 
-• Reconstruction performance
-• Latent space distribution
-• Generative capability
+- Reconstruction performance
+- Latent space distribution
+- Generative capability
 
 ---
 
@@ -120,21 +119,19 @@ This experiment demonstrates how the **latent space captures continuous semantic
 ## Model Comparison Goals
 
 The assignment analyzes:
-
-• Impact of **filter size on reconstruction quality**
-• Differences between **Autoencoder and VAE latent representations**
-• Ability of models to generate **smooth interpolations**
-• Relationship between **model capacity and reconstruction loss**
+- Impact of **filter size on reconstruction quality**
+- Differences between **Autoencoder and VAE latent representations**
+- Ability of models to generate **smooth interpolations**
+- Relationship between **model capacity and reconstruction loss**
 
 ---
 
 ## Key Observations
-
-• Increasing convolution filters generally improved reconstruction quality.
-• Larger models produced smoother and more structured latent spaces.
-• Variational Autoencoders generated more continuous latent representations.
-• Latent space interpolation demonstrated meaningful transitions between digits.
-• VAEs provided better generative structure compared to standard autoencoders.
+- Increasing convolution filters generally improved reconstruction quality.
+- Larger models produced smoother and more structured latent spaces.
+- Variational Autoencoders generated more continuous latent representations.
+- Latent space interpolation demonstrated meaningful transitions between digits.
+- VAEs provided better generative structure compared to standard autoencoders.
 
 ---
 
