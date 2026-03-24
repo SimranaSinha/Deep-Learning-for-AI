@@ -1,6 +1,5 @@
 # Assignment 4 – Transformers for Text Generation and Classification
 
-**IE 7615 – Deep Learning for AI**
 
 ## Overview
 
