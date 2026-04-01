@@ -102,7 +102,7 @@ Compared:
 │
 ├── 📄 Homework_Assignment_1(Deep_Learning).ipynb
 │
-└── README.md
+└── 📘 README.md
 ```
 ---
 
