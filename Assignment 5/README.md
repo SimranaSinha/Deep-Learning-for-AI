@@ -98,9 +98,20 @@ Images were generated using different step sizes:
 ```
 📦 Assignment 5/
 │
-├── 📄 Assignment_5_NNDL.ipynb   – Implementation of RealNVP and Energy-Based Model
+├── 📄 Assignment_5_NNDL.ipynb                               – Implementation of RealNVP and Energy-Based Model
 │
-└── 📘 README.md                 – Project documentation
+├── 🗂️ Output/
+│   ├── 🎞️ Density for each coupling layer count.png
+│   │
+│   ├── 🎞️ Density for each epoch run.png
+│   │
+│   ├── 🎞️ EBM – Training & Validation Loss (Fashion MNIST).png
+│   │
+│   ├── 🎞️ Task 2 – Loss Curves (num_coupling_layers = 8).png
+│   │
+│   └── 🎞️  Task 3 – Loss Curves (Epochs = 100).png
+│
+└── 📘 README.md                                            – Project documentation
 ```
 
 ---
