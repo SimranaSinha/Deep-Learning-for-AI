@@ -101,6 +101,7 @@ Images were generated using different step sizes:
 ├── 📄 Assignment_5_NNDL.ipynb                               – Implementation of RealNVP and Energy-Based Model
 │
 ├── 🗂️ Output/
+│   │
 │   ├── 🎞️ Density for each coupling layer count.png
 │   │
 │   ├── 🎞️ Density for each epoch run.png
