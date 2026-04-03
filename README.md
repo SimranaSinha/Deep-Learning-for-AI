@@ -67,7 +67,7 @@ This assignment implements and compares sequence modeling architectures on the R
 
 ---
 
-Assignment 3 – Autoencoder & Variational Autoencoder (MNIST)
+## Assignment 3 – Autoencoder & Variational Autoencoder (MNIST)
 This assignment explores generative representation learning using Autoencoders and Variational Autoencoders on the MNIST handwritten digit dataset. The goal is to analyze reconstruction quality, latent space structure, and the effect of model capacity.
 
 Models Implemented:
@@ -93,6 +93,88 @@ Observations:
 - Higher model capacity reduced reconstruction loss but increased complexity.
 
 ---
+
+## Assignment 4 – Sequence Models (Transformers vs LSTM)
+
+This assignment focuses on sequence modeling and compares Transformer models with LSTM networks for sequence prediction tasks. The goal is to understand how attention-based models perform compared to recurrent neural networks.
+
+### Key Areas:
+
+* Transformer architecture
+* LSTM sequence modeling
+* Training and validation loss comparison
+* Effect of temperature parameter
+* Transformer vs LSTM performance comparison
+
+### Files Included:
+
+```
+📦 Assignment 4/
+│
+├── 📄 Assignment_4_Deep_Learning.ipynb    – Full implementation
+│
+├── 📄 transformer_imdb_model.keras        – Saved Transformer sentiment model
+│
+├── 📄 final_recipe_transformer.weights.h5 – Recipe generation model weights
+│
+└── 📘 README.md                           – Project documentation
+```
+
+### Conclusion:
+
+* Transformers performed better for long sequence dependencies.
+* LSTM performed well but training was slower.
+* Transformer loss decreased faster than LSTM.
+* Temperature parameter affected sequence generation diversity.
+
+---
+
+## Assignment 5 – Generative Models (RealNVP & Energy-Based Models)
+
+This assignment focuses on generative models including Normalizing Flows (RealNVP) for density estimation and Energy-Based Models for image generation using Fashion-MNIST.
+
+### Key Areas:
+
+* RealNVP density estimation
+* Effect of epochs on training loss
+* Effect of coupling layers
+* Energy-Based Model training
+* Image generation using Langevin dynamics
+* Step size effect on generated images
+
+### Files Included:
+
+```
+📦 Assignment 5/
+│
+├── 📄 Assignment_5_NNDL.ipynb                               – Implementation of RealNVP and Energy-Based Model
+│
+├── 🗂️ Output/
+│   │
+│   ├── 🎞️ Density for each coupling layer count.png
+│   │
+│   ├── 🎞️ Density for each epoch run.png
+│   │
+│   ├── 🎞️ EBM – Training & Validation Loss (Fashion MNIST).png
+│   │
+│   ├── 🎞️ Task 2 – Loss Curves (num_coupling_layers = 8).png
+│   │
+│   └── 🎞️  Task 3 – Loss Curves (Epochs = 100).png
+│
+└── 📘 README.md                                            – Project documentation
+```
+
+### Conclusion:
+
+* Increasing epochs improved density estimation in RealNVP.
+* More coupling layers improved model flexibility.
+* Energy-Based Models successfully generated Fashion-MNIST images.
+* Step size significantly affected image quality and stability.
+
+---
+
+If you want, I can also make **Assignment 2, 3, 4, 5 all short READMEs in same format** so your whole repo looks consistent.
+
 
 ## Conclusion
 
