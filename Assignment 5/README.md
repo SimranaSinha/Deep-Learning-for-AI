@@ -1,4 +1,4 @@
-# Assignment 5 – Generative Models (RealNVP & Energy-Based Models)
+# Assignment 5 - Generative Models (RealNVP & Energy-Based Models)
 
 ## Overview
 
